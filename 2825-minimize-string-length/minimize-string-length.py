@@ -4,8 +4,4 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        a = []
-        for i in s:
-            a.append(i)
-        b = set(a)
-        return len(b)
+        return len(set(s))
